@@ -1,5 +1,11 @@
 .navbar{
-    height: 100px;
+    background-color: #040414; 
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
 
     .wrapper{
         max-width: 1366px;
