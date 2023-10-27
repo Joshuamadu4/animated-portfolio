@@ -1,10 +1,9 @@
 .hero{
-    height: calc(100vh - 100px); /* Adjusted for Navbar height */
+    height: calc(100vh - 100px); 
     overflow: hidden;
-    background: linear-gradient(180deg, #0c0c1d, #111132);
+    background: radial-gradient(180deg,#0c0c1d, #111132);
     position: relative;
-    margin-top: 100px; /* Add margin to create space for the fixed Navbar */
-    z-index: 1;
+    margin-top: 100px; 
     background-size: cover;
 
     
