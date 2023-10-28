@@ -43,7 +43,12 @@ const Hero = () => {
   return (
     <div className='hero'>
         <div className="wrapper">
-            <motion.div className='textContainer' variants={textVariants} initial='initial' animate='animate'>
+            <motion.div className='textContainer' 
+            variants={textVariants} 
+            initial='initial' 
+            //animate='animate'
+            whileInView="animate"
+            >
                 <motion.h2 variants={textVariants}>Joshua Madu</motion.h2>
                 <motion.h1 variants={textVariants} >Web Developer and UI Designer</motion.h1>
                 <motion.div className="buttons" variants={textVariants}>
