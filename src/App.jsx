@@ -22,7 +22,7 @@ const App = () => {
     <Porfolio/>
     
     <section id='Contact'>
-      <Contact/>
+     <Contact/>
     </section>
 
   </div>;
